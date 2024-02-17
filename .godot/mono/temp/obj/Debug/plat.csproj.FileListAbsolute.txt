@@ -1,0 +1,17 @@
+D:\plat\.godot\mono\temp\bin\Debug\plat.deps.json
+D:\plat\.godot\mono\temp\bin\Debug\plat.runtimeconfig.json
+D:\plat\.godot\mono\temp\bin\Debug\plat.dll
+D:\plat\.godot\mono\temp\bin\Debug\plat.pdb
+D:\plat\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\plat\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\plat\.godot\mono\temp\obj\Debug\plat.csproj.AssemblyReference.cache
+D:\plat\.godot\mono\temp\obj\Debug\plat.GeneratedMSBuildEditorConfig.editorconfig
+D:\plat\.godot\mono\temp\obj\Debug\plat.AssemblyInfoInputs.cache
+D:\plat\.godot\mono\temp\obj\Debug\plat.AssemblyInfo.cs
+D:\plat\.godot\mono\temp\obj\Debug\plat.csproj.CoreCompileInputs.cache
+D:\plat\.godot\mono\temp\obj\Debug\plat.csproj.CopyComplete
+D:\plat\.godot\mono\temp\obj\Debug\plat.dll
+D:\plat\.godot\mono\temp\obj\Debug\refint\plat.dll
+D:\plat\.godot\mono\temp\obj\Debug\plat.pdb
+D:\plat\.godot\mono\temp\obj\Debug\plat.genruntimeconfig.cache
+D:\plat\.godot\mono\temp\obj\Debug\ref\plat.dll

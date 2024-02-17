@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aTTc8dt/DTB+ER6H2Hwotl3XUQ9StJ8JZdPbrjXVd/SqvWxC8xtqJvtZdupu70Dlop3oBU/jcKdz9O76EzCoYA==",
+  "success": true,
+  "projectFilePath": "D:\\plat\\plat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
