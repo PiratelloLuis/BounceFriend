@@ -48,6 +48,7 @@ public partial class Movement : CharacterBody2D
 		//Rolling
 		if (Input.IsActionPressed("right"))
 		{
+				animationPlayer.Stop();
 			animationPlayer.Play("rolling");
 			velocity.X = Mathf.Min(velocity.X + Acc, Speed);
 			if (velocity.X > 0){
@@ -55,6 +56,7 @@ public partial class Movement : CharacterBody2D
 		}
 		}
 		else if (Input.IsActionPressed("left")){
+				animationPlayer.Stop();
 			animationPlayer.Play("rolling");
 			velocity.X = Mathf.Max(velocity.X - Acc, - Speed);
 			if(Velocity.X < 0){
@@ -64,7 +66,7 @@ public partial class Movement : CharacterBody2D
 		//Stopping
 		else
 		{
-			float Inertia = 0.09f;
+			float Inertia = 0.04f;
 			velocity.X = Mathf.Lerp(velocity.X, 0, Inertia);
 			animationPlayer.Play("idle");
 		}

@@ -1,12 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708193827
+::res://::1708196797
 ball.png::CompressedTexture2D::7864783689815938320::1707540373::1707540407::1::::<><>::
+export_presets.cfg::TextFile::-1::1708196726::0::1::::<><>::
 eyes.png::CompressedTexture2D::1549176496581497589::1707540702::1707540703::1::::<><>::
 icon.svg::CompressedTexture2D::1868624124996367952::1706641830::1706641841::1::::<><>::
-Movement.cs::CSharpScript::-1::1707539637::0::1::::<>CharacterBody2D<>::
+Movement.cs::CSharpScript::-1::1708195119::0::1::::<>CharacterBody2D<>::
 OldMovement.cs::CSharpScript::-1::1707345748::0::1::::<>CharacterBody2D<>::
 player2.png::CompressedTexture2D::3410788821684045832::1707538854::1707538855::1::::<><>::
-player.tscn::PackedScene::4600776983795683671::1707542635::0::1::::<><>::res://Movement.cs<>uid://dkb03rdaq0ubw::::res://ball.png<>uid://wcoyfn5qoncn::::res://eyes.png
-scene.tscn::PackedScene::4231605181020221197::1707542718::0::1::::<><>::uid://b1fvdnvxw76h4::::res://tilemap/tilemap.png<>uid://b6sweig3ev1tb::::res://player.tscn
+player.tscn::PackedScene::4600776983795683671::1708195144::0::1::::<><>::res://Movement.cs<>uid://dkb03rdaq0ubw::::res://ball.png<>uid://wcoyfn5qoncn::::res://eyes.png
+scene.tscn::PackedScene::4231605181020221197::1708195144::0::1::::<><>::uid://b1fvdnvxw76h4::::res://tilemap/tilemap.png<>uid://b6sweig3ev1tb::::res://player.tscn
 ::res://tilemap/::1707510512
 tilemap.png::CompressedTexture2D::4222933637602204935::1707510509::1707510512::1::::<><>::
