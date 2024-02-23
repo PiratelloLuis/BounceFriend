@@ -1,0 +1,112 @@
+[gd_scene load_steps=3 format=3 uid="uid://crptrh0kh5xvp"]
+
+[ext_resource type="FontFile" uid="uid://bt1hfjmmr5swv" path="res://Fonts/SF Pixelate Bold Oblique.ttf" id="1_jvm1w"]
+[ext_resource type="Script" path="res://Scripts/menu.cs" id="1_nx8fl"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nx8fl")
+metadata/_edit_horizontal_guides_ = [500.0]
+metadata/_edit_vertical_guides_ = [1002.0]
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.615686, 0.94902, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 35
+text = "Feito por"
+
+[node name="name" type="Button" parent="HBoxContainer"]
+modulate = Color(0, 1, 0.513726, 1)
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 0
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 35
+text = "PiratelloLuis"
+flat = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 25
+theme_override_constants/shadow_offset_y = 25
+theme_override_constants/outline_size = 25
+theme_override_constants/shadow_outline_size = 20
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 120
+text = "Bouncy Friend"
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 25
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 75
+text = "Play"
+flat = true
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 25
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 75
+text = "Quit"
+flat = true
+
+[connection signal="pressed" from="HBoxContainer/name" to="." method="_on_name_pressed"]
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
