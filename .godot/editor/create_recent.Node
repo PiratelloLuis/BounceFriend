@@ -1,12 +1,12 @@
-Label
+Sprite2D
 Control
+Label
 Button
 VBoxContainer
 HBoxContainer
 ColorRect
 CollisionShape2D
 Area2D
-Sprite2D
 ParallaxLayer
 ParallaxBackground
 TextureRect
