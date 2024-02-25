@@ -1,14 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://crptrh0kh5xvp"]
+[gd_scene load_steps=11 format=3 uid="uid://crptrh0kh5xvp"]
 
 [ext_resource type="FontFile" uid="uid://bt1hfjmmr5swv" path="res://Fonts/SF Pixelate Bold Oblique.ttf" id="1_jvm1w"]
 [ext_resource type="Script" path="res://Scripts/menu.cs" id="1_nx8fl"]
+[ext_resource type="Texture2D" uid="uid://bn36vscmk1xt6" path="res://Clouds/Clouds 1/1.png" id="2_butcu"]
+[ext_resource type="Texture2D" uid="uid://6e1enio8hd0u" path="res://Clouds/Clouds 1/2.png" id="2_y77ou"]
 [ext_resource type="Shader" path="res://Shaders/text_shake.gdshader" id="3_3wjir"]
+[ext_resource type="Texture2D" uid="uid://bnbn3ce2y701t" path="res://Clouds/Clouds 1/4.png" id="3_jwd1y"]
+[ext_resource type="Texture2D" uid="uid://d38k2hk2p4oef" path="res://Clouds/Clouds 1/3.png" id="5_yb6yi"]
+[ext_resource type="Texture2D" uid="uid://db5hsfmvrnwnc" path="res://Sprites/ball.png" id="8_sx1hc"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8cnlv"]
 shader = ExtResource("3_3wjir")
 shader_parameter/height = 5.0
 shader_parameter/frequency = 2.0
 shader_parameter/speed = 5.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sep02"]
+shader = ExtResource("3_3wjir")
+shader_parameter/height = 3.0
+shader_parameter/frequency = 2.0
+shader_parameter/speed = 3.0
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -21,16 +32,47 @@ script = ExtResource("1_nx8fl")
 metadata/_edit_horizontal_guides_ = [500.0]
 metadata/_edit_vertical_guides_ = [1002.0]
 
-[node name="Background" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.133333, 0.615686, 0.94902, 1)
+[node name="Background" type="Control" parent="."]
+layout_mode = 2
+anchors_preset = 0
+offset_left = 290.0
+offset_top = 428.0
+offset_right = 1310.0
+offset_bottom = 428.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="BackGround" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = -290.0
+offset_top = -428.0
+offset_right = 1312.0
+offset_bottom = 473.0
+texture = ExtResource("2_butcu")
+
+[node name="Clouds 2" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = -290.0
+offset_top = -428.0
+offset_right = 1312.0
+offset_bottom = 473.0
+texture = ExtResource("2_y77ou")
+
+[node name="Clouds" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = -290.0
+offset_top = -428.0
+offset_right = 1312.0
+offset_bottom = 473.0
+texture = ExtResource("3_jwd1y")
+
+[node name="Wind" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = -290.0
+offset_top = -428.0
+offset_right = 1312.0
+offset_bottom = 473.0
+texture = ExtResource("5_yb6yi")
+
+[node name="Credits" type="HBoxContainer" parent="."]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -44,7 +86,7 @@ offset_bottom = -10.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="Label" type="Label" parent="HBoxContainer"]
+[node name="Label" type="Label" parent="Credits"]
 texture_filter = 1
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -53,20 +95,21 @@ theme_override_fonts/font = ExtResource("1_jvm1w")
 theme_override_font_sizes/font_size = 35
 text = "Made by"
 
-[node name="name" type="Button" parent="HBoxContainer"]
+[node name="name" type="Button" parent="Credits" groups=["button"]]
 modulate = Color(0, 1, 0.513726, 1)
 texture_filter = 1
 material = SubResource("ShaderMaterial_8cnlv")
 layout_mode = 2
 focus_mode = 0
 theme_override_colors/font_color = Color(0, 1, 1, 1)
-theme_override_constants/outline_size = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
 theme_override_fonts/font = ExtResource("1_jvm1w")
 theme_override_font_sizes/font_size = 35
 text = "PiratelloLuis"
 flat = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="Title & Buttons" type="VBoxContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -81,7 +124,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 50
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="Label" type="Label" parent="Title & Buttons"]
+material = SubResource("ShaderMaterial_sep02")
 layout_mode = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -93,10 +137,10 @@ theme_override_fonts/font = ExtResource("1_jvm1w")
 theme_override_font_sizes/font_size = 120
 text = "Bouncy Friend"
 
-[node name="Blank Space" type="Control" parent="VBoxContainer"]
+[node name="Blank Space" type="Control" parent="Title & Buttons"]
 layout_mode = 2
 
-[node name="Play" type="Button" parent="VBoxContainer"]
+[node name="Play" type="Button" parent="Title & Buttons" groups=["button"]]
 layout_mode = 2
 focus_mode = 0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -106,7 +150,7 @@ theme_override_font_sizes/font_size = 75
 text = "Play"
 flat = true
 
-[node name="Quit" type="Button" parent="VBoxContainer"]
+[node name="Quit" type="Button" parent="Title & Buttons" groups=["button"]]
 layout_mode = 2
 focus_mode = 0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -116,6 +160,61 @@ theme_override_font_sizes/font_size = 75
 text = "Quit"
 flat = true
 
-[connection signal="pressed" from="HBoxContainer/name" to="." method="_on_name_pressed"]
-[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = -163.0
+offset_bottom = -163.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Character Selection" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Right" type="Button" parent="Character Selection"]
+texture_filter = 1
+texture_repeat = 1
+layout_mode = 2
+offset_left = 880.0
+offset_top = 721.0
+offset_right = 913.0
+offset_bottom = 776.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 50
+text = ">"
+flat = true
+
+[node name="Left" type="Button" parent="Character Selection"]
+texture_filter = 1
+texture_repeat = 1
+layout_mode = 2
+offset_left = 680.0
+offset_top = 721.0
+offset_right = 713.0
+offset_bottom = 776.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("1_jvm1w")
+theme_override_font_sizes/font_size = 50
+text = "<"
+flat = true
+
+[node name="Balls" type="Sprite2D" parent="Character Selection"]
+position = Vector2(800, 745)
+scale = Vector2(3, 3)
+texture = ExtResource("8_sx1hc")
+hframes = 6
+
+[connection signal="pressed" from="Credits/name" to="." method="_on_name_pressed"]
+[connection signal="pressed" from="Title & Buttons/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Title & Buttons/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Character Selection/Right" to="." method="_on_right_pressed"]
+[connection signal="pressed" from="Character Selection/Left" to="." method="_on_left_pressed"]

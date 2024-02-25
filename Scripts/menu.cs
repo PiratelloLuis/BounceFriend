@@ -1,10 +1,15 @@
+using System.Runtime.CompilerServices;
 using Godot;
-using System;
+
 
 public partial class menu : Control
 {
+    public override void _Ready()
+    {
 
-	public override void _Process(double delta)
+    }
+
+    public override void _Process(double delta)
 	{
 	}
 
@@ -17,5 +22,11 @@ public partial class menu : Control
 	}
 	public void _on_name_pressed(){
 		OS.ShellOpen("https://github.com/PiratelloLuis");
+	}
+	public void _on_right_pressed(){
+		
+	}
+	public void _on_left_pressed(){
+
 	}
 }
