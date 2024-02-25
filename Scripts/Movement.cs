@@ -61,7 +61,8 @@ public partial class Movement : CharacterBody2D
 			AudioStream.Play();
 		}
 
-
+		//Idle Animation
+		animationPlayer.Play("idle");
 		//Rotation
 		RotationDegrees += rotationSpeed * velocity.X;
 
@@ -83,9 +84,8 @@ public partial class Movement : CharacterBody2D
 		//Stopping
 		else
 		{
-			float Friction = 0.06f;
+			float Friction = 0.01f;
 			velocity.X = Mathf.Lerp(velocity.X, 0, Friction);
-			animationPlayer.Play("idle");
 		}
 		Velocity = velocity;
 	}

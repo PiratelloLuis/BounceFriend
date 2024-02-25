@@ -1,12 +1,12 @@
-res://Scenes/scene.tscn
+res://Scenes/menu.tscn
+res://Shaders/text_shake.gdshader
 res://Scenes/back_clouds.gdshader
 res://Shaders/cloud.gdshader
 res://Scenes/cloud.gdshader
 res://Shaders/back_clouds.gdshader
-res://Shaders/text_shake.gdshader
 res://Scenes/scene.gdshader
-res://Scenes/menu.tscn
 res://Scenes/player.tscn
+res://Scenes/scene.tscn
 res://Scripts/menu.cs
 res://Scripts/Movement.cs
 res://Scripts/OldMovement.cs
