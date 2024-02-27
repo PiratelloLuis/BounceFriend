@@ -13,7 +13,7 @@ config_version=5
 config/name="plat"
 run/main_scene="res://Scenes/menu.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://ico.png"
 
 [display]
 
