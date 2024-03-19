@@ -1,8 +1,8 @@
-WorldEnvironment
-Node
-Sprite2D
 ParallaxLayer
 ParallaxBackground
+Sprite2D
+WorldEnvironment
+Node
 LightOccluder2D
 DirectionalLight2D
 PointLight2D

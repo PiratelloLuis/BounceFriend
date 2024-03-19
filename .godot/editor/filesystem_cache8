@@ -1,89 +1,91 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710806993
-export_presets.cfg::TextFile::-1::1708906483::0::1::::<><>::
-ico.png::CompressedTexture2D::8486871827707737891::1708905650::1708905658::1::::<><>::
-::res://Clouds/::1710805929
-::res://Clouds/Clouds 1/::1710805931
-1.png::CompressedTexture2D::4629647950292392957::1665775218::1710805931::1::::<><>::
-2.png::CompressedTexture2D::3334489115598474538::1665775233::1710805931::1::::<><>::
-3.png::CompressedTexture2D::6330020640676183223::1665775251::1710805931::1::::<><>::
-4.png::CompressedTexture2D::4101054600602029557::1665775263::1710805931::1::::<><>::
-::res://Clouds/Clouds 2/::1710805931
-1.png::CompressedTexture2D::2875227780513630883::1665775346::1710805931::1::::<><>::
-2.png::CompressedTexture2D::5145938401571821281::1665775359::1710805931::1::::<><>::
-3.png::CompressedTexture2D::901963926898320711::1665775370::1710805931::1::::<><>::
-4.png::CompressedTexture2D::4426355445671587450::1665775705::1710805931::1::::<><>::
-::res://Clouds/Clouds 3/::1710805931
-1.png::CompressedTexture2D::5556289499806266397::1665775789::1710805931::1::::<><>::
-2.png::CompressedTexture2D::6844668153579885103::1665775820::1710805931::1::::<><>::
-3.png::CompressedTexture2D::7138747153711575373::1665775832::1710805931::1::::<><>::
-4.png::CompressedTexture2D::8594143912680599676::1665775847::1710805931::1::::<><>::
-::res://Clouds/Clouds 4/::1710805931
-1.png::CompressedTexture2D::5713905013530239053::1665775913::1710805931::1::::<><>::
-2.png::CompressedTexture2D::2909316625114087533::1665775922::1710805931::1::::<><>::
-3.png::CompressedTexture2D::6750216045131317161::1665775931::1710805931::1::::<><>::
-4.png::CompressedTexture2D::860099059814498150::1665775941::1710805931::1::::<><>::
-::res://Clouds/Clouds 5/::1710805931
-1.png::CompressedTexture2D::5197041625204141312::1665776038::1710805931::1::::<><>::
-2.png::CompressedTexture2D::4687395847607899053::1665776054::1710805931::1::::<><>::
-3.png::CompressedTexture2D::8043160458388231421::1665776062::1710805931::1::::<><>::
-4.png::CompressedTexture2D::7332238141348627731::1665776071::1710805931::1::::<><>::
-5.png::CompressedTexture2D::6377445790558020377::1665776084::1710805931::1::::<><>::
-::res://Clouds/Clouds 6/::1710805931
-1.png::CompressedTexture2D::1107849160020954605::1665778040::1710805931::1::::<><>::
-2.png::CompressedTexture2D::6878799264506104683::1665778051::1710805931::1::::<><>::
-3.png::CompressedTexture2D::3659749172470538660::1665778059::1710805931::1::::<><>::
-4.png::CompressedTexture2D::8552168425885233208::1665778071::1710805931::1::::<><>::
-5.png::CompressedTexture2D::6909621720759378559::1665778082::1710805931::1::::<><>::
-6.png::CompressedTexture2D::7438411641631871327::1665778097::1710805931::1::::<><>::
-::res://Clouds/Clouds 7/::1710805931
-1.png::CompressedTexture2D::1768576454205405608::1665778343::1710805931::1::::<><>::
-2.png::CompressedTexture2D::6840897128605312220::1665778354::1710805931::1::::<><>::
-3.png::CompressedTexture2D::6525585116333015763::1665778364::1710805931::1::::<><>::
-4.png::CompressedTexture2D::6487473173715101525::1665778374::1710805931::1::::<><>::
-::res://Clouds/Clouds 8/::1710805931
-1.png::CompressedTexture2D::6663505649820922853::1665778440::1710805931::1::::<><>::
-2.png::CompressedTexture2D::3345551809985884673::1665778464::1710805931::1::::<><>::
-3.png::CompressedTexture2D::3499245040084782649::1665778476::1710805931::1::::<><>::
-4.png::CompressedTexture2D::4894651711099798928::1665778484::1710805931::1::::<><>::
-5.png::CompressedTexture2D::2706097219092045048::1665778493::1710805931::1::::<><>::
-6.png::CompressedTexture2D::8541516014739962971::1665778502::1710805931::1::::<><>::
-::res://Fonts/::1708709674
-Peach Cake.otf::FontFile::492591304674594741::1702148646::1708468219::1::::<><>::
-SF Pixelate Bold Oblique.ttf::FontFile::3774116974157108041::959310360::1708709674::1::::<><>::
-SF Pixelate Bold.ttf::FontFile::2230902816501917193::959310480::1708709674::1::::<><>::
-SF Pixelate Oblique.ttf::FontFile::8098668966501282973::959310540::1708709674::1::::<><>::
-SF Pixelate Shaded Bold Oblique.ttf::FontFile::7286600964124529613::959310600::1708709674::1::::<><>::
-SF Pixelate Shaded Bold.ttf::FontFile::8741004981544759784::959310660::1708709674::1::::<><>::
-SF Pixelate Shaded Oblique.ttf::FontFile::7935570095945352952::959310720::1708709674::1::::<><>::
-SF Pixelate Shaded.ttf::FontFile::3322948254039639391::959310780::1708709674::1::::<><>::
-SF Pixelate.ttf::FontFile::567931410727043220::959310840::1708709674::1::::<><>::
-::res://Scenes/::1710806943
-back_clouds.gdshader::Shader::-1::1710806943::0::1::::<><>::
-cloud.gdshader::Shader::-1::1710806943::0::1::::<><>::
-menu.tscn::PackedScene::5998201763651071765::1710806507::0::1::::<><>::uid://bt1hfjmmr5swv::::res://Fonts/SF Pixelate Bold Oblique.ttf<>res://Scripts/menu.cs<>uid://b67vvi5ocou4d::::res://Clouds/Clouds 1/1.png<>uid://bnriswetcqsgw::::res://Clouds/Clouds 1/2.png<>res://Shaders/text_shake.gdshader<>uid://byot1gia2ppej::::res://Clouds/Clouds 1/4.png<>uid://cwgkrrqphd5vn::::res://Clouds/Clouds 1/3.png
-optionsMenu.tscn::PackedScene::342846547054274245::1708473997::0::1::::<><>::res://Scripts/optionsMenu.cs<>uid://hau53jvsqsor::::res://Fonts/Peach Cake.otf
-parallax_background.tscn::PackedScene::2857814918720536534::1710806341::0::1::::<><>::uid://b67vvi5ocou4d::::res://Clouds/Clouds 1/1.png<>res://Shaders/back_clouds.gdshader<>res://Scenes/back_clouds.gdshader<>uid://bnriswetcqsgw::::res://Clouds/Clouds 1/2.png<>res://Shaders/cloud.gdshader<>res://Scenes/cloud.gdshader<>uid://byot1gia2ppej::::res://Clouds/Clouds 1/4.png
-player.tscn::PackedScene::4600776983795683671::1710806794::0::1::::<><>::res://Scripts/Movement.cs<>uid://db5hsfmvrnwnc::::res://Sprites/ball.png<>uid://kmiqcm5cblpa::::res://Sprites/eyes.png<>uid://d2eyqauq0006y::::res://Sounds/Jump.wav
-scene.gdshader::Shader::-1::1710806943::0::1::::<><>::
-scene.tscn::PackedScene::4231605181020221197::1710806942::0::1::::<><>::res://Scripts/scene.gd<>uid://b1fvdnvxw76h4::::res://Tilemaps/tilemap.png<>uid://b6sweig3ev1tb::::res://Scenes/player.tscn<>uid://bgyl2acope6lu::::res://Scenes/parallax_background.tscn
-::res://Scripts/::1710806729
-menu.cs::CSharpScript::-1::1709051827::0::1::::<>Control<>::
-Movement.cs::CSharpScript::-1::1710106515::0::1::::<>CharacterBody2D<>::
-OldMovement.cs::CSharpScript::-1::1707345748::0::1::::<>CharacterBody2D<>::
-scene.gd::GDScript::-1::1710806723::0::1::::<>Node2D<>::
-::res://Shaders/::1710806943
-back_clouds.gdshader::Shader::-1::1710806943::0::1::::<><>::
-cloud.gdshader::Shader::-1::1710806943::0::1::::<><>::
-scene.gdshader::Shader::-1::1708710699::0::1::::<><>::
-text_shake.gdshader::Shader::-1::1710806943::0::1::::<><>::
-::res://Sounds/::1708466543
-Jump.wav::AudioStreamWAV::9064104152508766194::1708209780::1708466543::1::::<><>::
-::res://Sprites/::1710805399
-ball.png::CompressedTexture2D::7291839672710584364::1708905652::1708905658::1::::<><>::
-daynightcycle-gradient-texture.tres::GradientTexture1D::6148423579563771023::1710805399::0::1::::<><>::
-eyes.png::CompressedTexture2D::727175403023792402::1708905651::1708801670::1::::<><>::
-light.png::CompressedTexture2D::6905280473593837408::1702576598::1710804749::1::::<><>::
-player2.png::CompressedTexture2D::7130552765172518502::1707538854::1708466487::1::::<><>::
-::res://Tilemaps/::1710801003
-tilemap.png::CompressedTexture2D::4222933637602204935::1710804160::1710801003::1::::<><>::
+::res://::1710852883
+ico.png::CompressedTexture2D::8486871827707737891::1710807190::1710807190::1::::<><>::
+icon.svg::CompressedTexture2D::3711931786871924519::1708905578::1708905578::1::::<><>::
+::res://Clouds/::1710807190
+::res://Clouds/Clouds 1/::1710846550
+1.png::CompressedTexture2D::4629647950292392957::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::3334489115598474538::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::6330020640676183223::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::4101054600602029557::1710807190::1710807190::1::::<><>::
+5.png::CompressedTexture2D::91789048353609970::1710846548::1710846550::1::::<><>::
+::res://Clouds/Clouds 2/::1710807190
+1.png::CompressedTexture2D::2875227780513630883::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::5145938401571821281::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::901963926898320711::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::4426355445671587450::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 3/::1710807190
+1.png::CompressedTexture2D::5556289499806266397::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::6844668153579885103::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::7138747153711575373::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::8594143912680599676::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 4/::1710807190
+1.png::CompressedTexture2D::5713905013530239053::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::2909316625114087533::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::6750216045131317161::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::860099059814498150::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 5/::1710807190
+1.png::CompressedTexture2D::5197041625204141312::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::4687395847607899053::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::8043160458388231421::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::7332238141348627731::1710807190::1710807190::1::::<><>::
+5.png::CompressedTexture2D::6377445790558020377::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 6/::1710807190
+1.png::CompressedTexture2D::1107849160020954605::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::6878799264506104683::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::3659749172470538660::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::8552168425885233208::1710807190::1710807190::1::::<><>::
+5.png::CompressedTexture2D::6909621720759378559::1710807190::1710807190::1::::<><>::
+6.png::CompressedTexture2D::7438411641631871327::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 7/::1710807190
+1.png::CompressedTexture2D::1768576454205405608::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::6840897128605312220::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::6525585116333015763::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::6487473173715101525::1710807190::1710807190::1::::<><>::
+::res://Clouds/Clouds 8/::1710807190
+1.png::CompressedTexture2D::6663505649820922853::1710807190::1710807190::1::::<><>::
+2.png::CompressedTexture2D::3345551809985884673::1710807190::1710807190::1::::<><>::
+3.png::CompressedTexture2D::3499245040084782649::1710807190::1710807190::1::::<><>::
+4.png::CompressedTexture2D::4894651711099798928::1710807190::1710807190::1::::<><>::
+5.png::CompressedTexture2D::2706097219092045048::1710807190::1710807190::1::::<><>::
+6.png::CompressedTexture2D::8541516014739962971::1710807190::1710807190::1::::<><>::
+::res://Fonts/::1710807190
+Peach Cake.otf::FontFile::492591304674594741::1710807190::1710807190::1::::<><>::
+SF Pixelate Bold Oblique.ttf::FontFile::3774116974157108041::1710807190::1710807190::1::::<><>::
+SF Pixelate Bold.ttf::FontFile::2230902816501917193::1710807190::1710807190::1::::<><>::
+SF Pixelate Oblique.ttf::FontFile::8098668966501282973::1710807190::1710807190::1::::<><>::
+SF Pixelate Shaded Bold Oblique.ttf::FontFile::7286600964124529613::1710807190::1710807190::1::::<><>::
+SF Pixelate Shaded Bold.ttf::FontFile::8741004981544759784::1710807190::1710807190::1::::<><>::
+SF Pixelate Shaded Oblique.ttf::FontFile::7935570095945352952::1710807190::1710807190::1::::<><>::
+SF Pixelate Shaded.ttf::FontFile::3322948254039639391::1710807190::1710807190::1::::<><>::
+SF Pixelate.ttf::FontFile::567931410727043220::1710807190::1710807190::1::::<><>::
+::res://Scenes/::1710852807
+back_clouds.gdshader::Shader::-1::1710852807::0::1::::<><>::
+cloud.gdshader::Shader::-1::1710852807::0::1::::<><>::
+menu.tscn::PackedScene::5998201763651071765::1710852719::0::1::::<><>::uid://bt1hfjmmr5swv::::res://Fonts/SF Pixelate Bold Oblique.ttf<>res://Scripts/menu.cs<>uid://b67vvi5ocou4d::::res://Clouds/Clouds 1/1.png<>uid://bnriswetcqsgw::::res://Clouds/Clouds 1/2.png<>res://Shaders/text_shake.gdshader<>uid://byot1gia2ppej::::res://Clouds/Clouds 1/4.png<>res://Scenes/back_clouds.gdshader<>uid://bkp0ttddpqoo::::res://Clouds/Clouds 1/5.png<>res://Scenes/cloud.gdshader<>res://Shaders/clouds_front.gdshader
+optionsMenu.tscn::PackedScene::342846547054274245::1710807190::0::1::::<><>::res://Scripts/optionsMenu.cs<>uid://hau53jvsqsor::::res://Fonts/Peach Cake.otf
+parallax_background.tscn::PackedScene::2857814918720536534::1710852062::0::1::::<><>::uid://b67vvi5ocou4d::::res://Clouds/Clouds 1/1.png<>res://Shaders/back_clouds.gdshader<>uid://cwgkrrqphd5vn::::res://Clouds/Clouds 1/3.png<>uid://bnriswetcqsgw::::res://Clouds/Clouds 1/2.png<>res://Scenes/cloud.gdshader<>res://Shaders/text_shake.gdshader<>uid://byot1gia2ppej::::res://Clouds/Clouds 1/4.png<>uid://bkp0ttddpqoo::::res://Clouds/Clouds 1/5.png<>res://Shaders/clouds_front.gdshader
+player.tscn::PackedScene::4600776983795683671::1710852719::0::1::::<><>::res://Scripts/Movement.cs<>uid://db5hsfmvrnwnc::::res://Sprites/ball.png<>uid://kmiqcm5cblpa::::res://Sprites/eyes.png<>uid://d2eyqauq0006y::::res://Sounds/Jump.wav
+scene.gdshader::Shader::-1::1710852807::0::1::::<><>::
+scene.tscn::PackedScene::4231605181020221197::1710852719::0::1::::<><>::res://Scripts/scene.gd<>uid://b1fvdnvxw76h4::::res://Tilemaps/tilemap.png<>uid://b6sweig3ev1tb::::res://Scenes/player.tscn<>uid://b67vvi5ocou4d::::res://Clouds/Clouds 1/1.png<>res://Scenes/back_clouds.gdshader<>uid://bkp0ttddpqoo::::res://Clouds/Clouds 1/5.png<>uid://bnriswetcqsgw::::res://Clouds/Clouds 1/2.png<>res://Scenes/cloud.gdshader<>uid://byot1gia2ppej::::res://Clouds/Clouds 1/4.png<>res://Shaders/clouds_front.gdshader
+::res://Scripts/::1710807190
+menu.cs::CSharpScript::-1::1710807190::0::1::::<>Control<>::
+Movement.cs::CSharpScript::-1::1710807190::0::1::::<>CharacterBody2D<>::
+OldMovement.cs::CSharpScript::-1::1710807190::0::1::::<>CharacterBody2D<>::
+scene.gd::GDScript::-1::1710807190::0::1::::<>Node2D<>::
+::res://Shaders/::1710852807
+back_clouds.gdshader::Shader::-1::1710852807::0::1::::<><>::
+cloud.gdshader::Shader::-1::1710852807::0::1::::<><>::
+clouds_front.gdshader::Shader::-1::1710852807::0::1::::<><>::
+scene.gdshader::Shader::-1::1710807190::0::1::::<><>::
+text_shake.gdshader::Shader::-1::1710852807::0::1::::<><>::
+::res://Sounds/::1710807190
+Jump.wav::AudioStreamWAV::9064104152508766194::1710807190::1710807190::1::::<><>::
+::res://Sprites/::1710807190
+ball.png::CompressedTexture2D::7291839672710584364::1710807190::1710807190::1::::<><>::
+daynightcycle-gradient-texture.tres::GradientTexture1D::6148423579563771023::1710807190::0::1::::<><>::
+eyes.png::CompressedTexture2D::727175403023792402::1710807190::1710807190::1::::<><>::
+light.png::CompressedTexture2D::6905280473593837408::1710807190::1710807190::1::::<><>::
+player2.png::CompressedTexture2D::7130552765172518502::1710807190::1710807190::1::::<><>::
+::res://Tilemaps/::1710851136
+tilemap.png::CompressedTexture2D::4222933637602204935::1710851136::1710851136::1::::<><>::
