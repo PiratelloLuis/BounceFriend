@@ -7,6 +7,9 @@ res://Shaders/back_clouds.gdshader
 res://Scenes/scene.gdshader
 res://Scenes/player.tscn
 res://Scenes/scene.tscn
-res://Scripts/menu.cs
-res://Scripts/Movement.cs
-res://Scripts/OldMovement.cs
+res://Scripts/scene.gd
+res://Shaders/sky.gdshader
+res://Scripts/daynight.gd
+res://Sprites/daynightcycle-gradient-texture.tres
+res://scene2.tscn
+res://parallax_background.tscn

@@ -1,0 +1,63 @@
+[gd_scene load_steps=12 format=3 uid="uid://bgyl2acope6lu"]
+
+[ext_resource type="Texture2D" uid="uid://b67vvi5ocou4d" path="res://Clouds/Clouds 1/1.png" id="1_jc1w1"]
+[ext_resource type="Shader" path="res://Shaders/back_clouds.gdshader" id="2_is6xq"]
+[ext_resource type="Shader" path="res://Scenes/back_clouds.gdshader" id="3_r0qfh"]
+[ext_resource type="Texture2D" uid="uid://bnriswetcqsgw" path="res://Clouds/Clouds 1/2.png" id="4_jud32"]
+[ext_resource type="Shader" path="res://Shaders/cloud.gdshader" id="5_gf0ks"]
+[ext_resource type="Shader" path="res://Scenes/cloud.gdshader" id="6_36ilj"]
+[ext_resource type="Texture2D" uid="uid://byot1gia2ppej" path="res://Clouds/Clouds 1/4.png" id="7_cf52t"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f73bl"]
+shader = ExtResource("2_is6xq")
+shader_parameter/move_speed = -0.02
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rs0ge"]
+shader = ExtResource("3_r0qfh")
+shader_parameter/move_speed = -0.02
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vdhfe"]
+shader = ExtResource("5_gf0ks")
+shader_parameter/move_speed = -0.01
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y3u48"]
+shader = ExtResource("6_36ilj")
+shader_parameter/move_speed = -0.1
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="Sky" type="ParallaxLayer" parent="."]
+position = Vector2(-89, -312)
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(576, 0)
+
+[node name="Sky_s" type="Sprite2D" parent="Sky"]
+texture_filter = 1
+texture = ExtResource("1_jc1w1")
+centered = false
+
+[node name="Clouds" type="ParallaxLayer" parent="."]
+material = SubResource("ShaderMaterial_f73bl")
+position = Vector2(-89, -312)
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(576, 0)
+
+[node name="Clouds_s" type="Sprite2D" parent="Clouds"]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("ShaderMaterial_rs0ge")
+texture = ExtResource("4_jud32")
+centered = false
+
+[node name="Close_Clouds" type="ParallaxLayer" parent="."]
+material = SubResource("ShaderMaterial_vdhfe")
+position = Vector2(-89, -312)
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(576, 0)
+
+[node name="Close_Clouds_s" type="Sprite2D" parent="Close_Clouds"]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("ShaderMaterial_y3u48")
+texture = ExtResource("7_cf52t")
+centered = false

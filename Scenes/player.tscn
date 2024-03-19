@@ -104,7 +104,12 @@ shape = SubResource("CircleShape2D_vfgqg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(4, 4)
+limit_left = -30
+limit_right = 2250
+limit_bottom = 40
+limit_smoothed = true
 position_smoothing_enabled = true
+position_smoothing_speed = 7.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

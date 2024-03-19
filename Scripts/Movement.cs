@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using Godot;
 
 
@@ -10,10 +11,11 @@ public partial class Movement : CharacterBody2D
 	public static float DesAcc = 3.0f;
 	public static float Mass = 1.0f;
 
-
+	private Camera2D camera;
 	private AnimationPlayer animationPlayer;
 	private Sprite2D playerSprite;
 	private AudioStreamPlayer2D AudioStream;
+
 
 	public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
 
@@ -24,6 +26,7 @@ public partial class Movement : CharacterBody2D
 		AudioStream = GetNode<AudioStreamPlayer2D>("Jump_sound");
 		playerSprite = GetNode<Sprite2D>("ball");
 		animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
+		camera = GetNode<Camera2D>("Camera2D");
 	}
 
 	public override void _PhysicsProcess(double delta)
