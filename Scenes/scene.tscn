@@ -148,13 +148,13 @@ texture = ExtResource("1_xyup2")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_do83m")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_tu62s"]
-shader = ExtResource("5_k8dnh")
-shader_parameter/move_speed = -0.1
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_70t3b"]
 shader = ExtResource("7_fd7d3")
 shader_parameter/move_speed = -0.02
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tu62s"]
+shader = ExtResource("5_k8dnh")
+shader_parameter/move_speed = -0.1
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_b5gmb"]
 shader = ExtResource("9_t1n18")
@@ -191,18 +191,6 @@ texture_repeat = 2
 texture = ExtResource("4_v0vbw")
 centered = false
 
-[node name="2" type="ParallaxLayer" parent="ParallaxBackground"]
-texture_filter = 1
-texture_repeat = 2
-position = Vector2(40, -307)
-motion_scale = Vector2(0.8, 1)
-motion_mirroring = Vector2(576, 324)
-
-[node name="2" type="Sprite2D" parent="ParallaxBackground/2"]
-material = SubResource("ShaderMaterial_tu62s")
-texture = ExtResource("5_l6gsj")
-centered = false
-
 [node name="3" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
 texture_repeat = 2
@@ -213,6 +201,17 @@ motion_mirroring = Vector2(576, 0)
 [node name="3" type="Sprite2D" parent="ParallaxBackground/3"]
 material = SubResource("ShaderMaterial_70t3b")
 texture = ExtResource("6_vpjbv")
+centered = false
+
+[node name="2" type="ParallaxLayer" parent="ParallaxBackground/3"]
+texture_filter = 1
+texture_repeat = 2
+motion_scale = Vector2(0.8, 1)
+motion_mirroring = Vector2(576, 324)
+
+[node name="2" type="Sprite2D" parent="ParallaxBackground/3/2"]
+material = SubResource("ShaderMaterial_tu62s")
+texture = ExtResource("5_l6gsj")
 centered = false
 
 [node name="5" type="ParallaxLayer" parent="ParallaxBackground"]

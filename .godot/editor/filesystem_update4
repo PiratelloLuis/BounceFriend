@@ -8,3 +8,6 @@ res://Shaders/back_clouds.gdshader
 res://Shaders/cloud.gdshader
 res://Scenes/player.tscn
 res://Scenes/menu.tscn
+res://Scripts/menu.cs
+res://Scripts/Movement.cs
+res://Scripts/OldMovement.cs
