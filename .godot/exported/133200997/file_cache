@@ -1,3 +1,5 @@
-res://Scenes/menu.tscn::6e0db74c6038ed5c942d972aa0f00bd2::1708906446::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
-res://Scenes/player.tscn::d31db74c6bf505de67fa4ca2819ed767::1708905170::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
-res://Scenes/scene.tscn::8d4d3636917d89e519ecf472523d3a5a::1708906456::res://.godot/exported/133200997/export-d3910c5c9e9c5314673dd53af44d685e-scene.scn
+res://Scenes/menu.tscn::a13eea280c94ec0fa87481842a9a9fb8::1710806507::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
+res://Scenes/player.tscn::3b0c73ee92057eab62c67038c878f788::1710807037::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
+res://Scenes/scene.tscn::386f6e8ed20099441647d3d324ddf018::1710807075::res://.godot/exported/133200997/export-d3910c5c9e9c5314673dd53af44d685e-scene.scn
+res://Scenes/parallax_background.tscn::6d11b208906b59f89e0fd70a27191aff::1710806341::res://.godot/exported/133200997/export-d2ea2a990a3d749dc6a25e2e84d9c863-parallax_background.scn
+res://Sprites/daynightcycle-gradient-texture.tres::95aede02c5b278311d094d942dab21a7::1710805399::res://.godot/exported/133200997/export-023b7bdef2a3586be1fef555cb4d7341-daynightcycle-gradient-texture.res
