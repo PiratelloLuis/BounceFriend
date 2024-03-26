@@ -15,3 +15,20 @@ D:\plat\.godot\mono\temp\obj\Debug\refint\plat.dll
 D:\plat\.godot\mono\temp\obj\Debug\plat.pdb
 D:\plat\.godot\mono\temp\obj\Debug\plat.genruntimeconfig.cache
 D:\plat\.godot\mono\temp\obj\Debug\ref\plat.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\plat.deps.json
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\plat.runtimeconfig.json
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\plat.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\plat.pdb
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.csproj.AssemblyReference.cache
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.AssemblyInfoInputs.cache
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.AssemblyInfo.cs
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.csproj.CoreCompileInputs.cache
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.csproj.CopyComplete
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\refint\plat.dll
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.pdb
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\plat.genruntimeconfig.cache
+D:\Godot Games\BounceFriend-main\.godot\mono\temp\obj\Debug\ref\plat.dll

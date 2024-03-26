@@ -1,0 +1,90 @@
+[gd_scene load_steps=8 format=3 uid="uid://6bflfl0x7iq5"]
+
+[ext_resource type="Texture2D" uid="uid://cxfgysp3iat8d" path="res://Comp_1_00000.png" id="1_x7hw2"]
+[ext_resource type="FontFile" uid="uid://bt1hfjmmr5swv" path="res://Fonts/SF Pixelate Bold Oblique.ttf" id="2_cmgce"]
+[ext_resource type="Shader" path="res://Shaders/text_shake.gdshader" id="2_w7le1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_l3g8v"]
+shader = ExtResource("2_w7le1")
+shader_parameter/height = 5.0
+shader_parameter/frequency = 2.0
+shader_parameter/speed = 3.0
+
+[sub_resource type="Animation" id="Animation_ews3q"]
+resource_name = "fade in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_nr1g6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lu1lw"]
+_data = {
+"RESET": SubResource("Animation_nr1g6"),
+"fade in": SubResource("Animation_ews3q")
+}
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+scale = Vector2(0.711159, 0.713071)
+texture = ExtResource("1_x7hw2")
+
+[node name="Label" type="Label" parent="TextureRect"]
+material = SubResource("ShaderMaterial_l3g8v")
+layout_mode = 0
+offset_left = 5.62462
+offset_top = 1016.73
+offset_right = 1175.62
+offset_bottom = 1110.73
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 40
+theme_override_fonts/font = ExtResource("2_cmgce")
+theme_override_font_sizes/font_size = 50
+text = "Thanks for playing!"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(34.2, 19.28)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ColorRect"]
+root_node = NodePath("../../TextureRect")
+libraries = {
+"": SubResource("AnimationLibrary_lu1lw")
+}
+autoplay = "fade in"

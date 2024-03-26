@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=3 uid="uid://2pfnul4a0s4"]
+
+[ext_resource type="Texture2D" uid="uid://b1fvdnvxw76h4" path="res://Tilemaps/tilemap.png" id="1_8na7b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tbktd"]
+size = Vector2(32, 16)
+
+[sub_resource type="Animation" id="Animation_it7ka"]
+resource_name = "Move_up"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatableBody2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -125)]
+}
+
+[sub_resource type="Animation" id="Animation_cu246"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatableBody2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cwxii"]
+_data = {
+"Move_up": SubResource("Animation_it7ka"),
+"RESET": SubResource("Animation_cu246")
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatableBody2D" type="AnimatableBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="AnimatableBody2D"]
+texture = ExtResource("1_8na7b")
+region_enabled = true
+region_rect = Rect2(16, 112, 32, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatableBody2D"]
+shape = SubResource("RectangleShape2D_tbktd")
+debug_color = Color(0.972549, 0, 0.447059, 0.419608)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatableBody2D"]
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_cwxii")
+}
+autoplay = "Move_up"

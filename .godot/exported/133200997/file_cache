@@ -1,5 +1,10 @@
-res://Scenes/menu.tscn::a13eea280c94ec0fa87481842a9a9fb8::1710806507::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
-res://Scenes/player.tscn::3b0c73ee92057eab62c67038c878f788::1710807037::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
-res://Scenes/scene.tscn::386f6e8ed20099441647d3d324ddf018::1710807075::res://.godot/exported/133200997/export-d3910c5c9e9c5314673dd53af44d685e-scene.scn
-res://Scenes/parallax_background.tscn::6d11b208906b59f89e0fd70a27191aff::1710806341::res://.godot/exported/133200997/export-d2ea2a990a3d749dc6a25e2e84d9c863-parallax_background.scn
-res://Sprites/daynightcycle-gradient-texture.tres::95aede02c5b278311d094d942dab21a7::1710805399::res://.godot/exported/133200997/export-023b7bdef2a3586be1fef555cb4d7341-daynightcycle-gradient-texture.res
+res://Scenes/menu.tscn::284291ed2c4f18fe9f313b266a0dd16a::1711467162::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
+res://Scenes/player.tscn::61e7c1590b35018e2a86595f6a71b0af::1711463849::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
+res://Scenes/scene.tscn::f30c97a85dd59158c07fd6d60b549ffc::1711467238::res://.godot/exported/133200997/export-d3910c5c9e9c5314673dd53af44d685e-scene.scn
+res://Scenes/parallax_background.tscn::2521d88a3c71997b8c0fcffd7851f880::1710853948::res://.godot/exported/133200997/export-d2ea2a990a3d749dc6a25e2e84d9c863-parallax_background.scn
+res://Sprites/daynightcycle-gradient-texture.tres::95aede02c5b278311d094d942dab21a7::1710853948::res://.godot/exported/133200997/export-023b7bdef2a3586be1fef555cb4d7341-daynightcycle-gradient-texture.res
+res://Scenes/end_game.tscn::3c93e29749f6ce33a3086cfb83c24c33::1711467162::res://.godot/exported/133200997/export-ac8d77ec63492fc3f32034cf46d55caa-end_game.scn
+res://Scenes/moving_plat_2_right.tscn::cf0bbdae9fca77f5da03b60a6cf57e69::1711463849::res://.godot/exported/133200997/export-2e0c128535dad417c911eaaf41bd7899-moving_plat_2_right.scn
+res://Scenes/moving_plat_2_up.tscn::d06b65869a2420135716732c1afc2e5d::1711463849::res://.godot/exported/133200997/export-d1d4966e6589b738f5c4033d684d8603-moving_plat_2_up.scn
+res://Scenes/moving_plat_3_right.tscn::cad9d651787e8e2364e3c9a6942fa594::1711463849::res://.godot/exported/133200997/export-600ef540ea8a4c674d171070ff5c5970-moving_plat_3_right.scn
+res://Scenes/moving_plat_3_up.tscn::fd007dd72aa2d50d91fdbedbdd4fa59d::1711307360::res://.godot/exported/133200997/export-5d1f8bbc059c9b8bd8faa17cffb91603-moving_plat_3_up.scn
